@@ -1,0 +1,7 @@
+public class Truck extends Car
+{
+    public void method1()
+    {
+        System.out.println(super.fuel);
+    }
+}

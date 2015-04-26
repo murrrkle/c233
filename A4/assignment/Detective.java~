@@ -1,0 +1,91 @@
+/** 
+ * Detective.java: The detective that reasons about the murder based on information provided 
+ *                 and the response from the Oracle. <br>
+ * Copyright (c) 2013 Mea Wang. All rights reserved.
+ *
+ * @author Mea Wang
+ * @version CPSC 233, Assignment 4
+ */
+
+/*********************************************************
+ * Last Name:           Hung
+ * First Name:          Michael
+ * Student ID:          10099049
+ * Course:              CPSC 233
+ * Tutorial Section:    L03 w/ Yongxin Liu
+ * Assignment:          4
+ *
+ * This is the Detective class. It uses the classes
+ * Person, Location, Time, and Oracle. Its purpose
+ * is to identify the true 'murderer', defined by 
+ * oracle.txt,  by querying the Oracle with a list 
+ * of suspects, provided by suspects.txt.
+ *
+ * When the Detective has found the murderer, the
+ * murderer's information is printed in a certain
+ * format by way of the toString method.
+ *
+ * The implementation of check, however, is currently
+ * incomplete and thus Detective will not function as
+ * planned, if at all.
+*********************************************************/
+
+public class Detective
+{
+    private Person murderer;
+    private Location murderLocation;
+    private Time murderTime;
+    private Oracle theOracle;
+    
+    /** Constructor 
+     * @param ora The reference to the Oracle 
+     */
+    public Detective (Oracle ora)
+    
+    {
+        theOracle = ora;
+
+        murderer = new Person();
+        murderLocation = new Location();
+        murderTime = new Time();
+    }
+    
+    public boolean check (String line)
+    
+    {
+        String[] suspectInfo = line.split("; ");
+        
+        // From Oracle class
+        String[] info;
+        
+        // Get the suspect's information
+        info = suspectInfo[0].split(", ");
+        suspect = new Person(info[0].charAt(0), Integer.parseInt(info[1]), Double.parseDouble(info[2]));
+        
+        // Get the location
+        info = suspectInfo[1].split(", ");
+        suspectLocation = new Location(Integer.parseInt(info[0]), Integer.parseInt(info[1]));
+        
+        // Get the time
+        info = suspectInfo[2].split(":");
+        suspectTime = new Time(Integer.parseInt(info[0]), Integer.parseInt(info[1]));        
+        
+        
+        
+        
+        return false;
+    }
+    
+    
+    public String toString ()
+    
+    {
+        String summary = "";
+        
+         summary += "\nCulprit: " + murderer.toString();
+         summary += "\nLocation: " + murderLocation.toString();
+         summary += "\nTime: " + murderTime.toString();
+        
+        return summary;
+    }
+}

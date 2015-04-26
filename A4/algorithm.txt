@@ -1,0 +1,127 @@
+Hi everyone,
+
+
+It's your TA, Yongxin. Here is a brief description of what I talked about on today's tutorial. 
+If you didn't make it, you can refer to it. (Please note my algorithms are not the only solutions.) Really hope it helps!
+
+
+If you don't know how to implement your algorithms, that's fine! 
+The algorithms part only worth a very small portion of the total marks. 
+(Read marking key!) If you can complete all the other methods and sucessfully find the murderer, you will get most of the marks! 
+So, in this case, you will just query all the suspects until you find the murderer, without ruling out anything.
+
+
+1. For person
+
+
+After you get the value N, you will check every digit of this number. 
+Highest digit is for deciding gender, next highest digit is for deciding age range, and the lowest one is for knowing the 
+height difference. According to each digit, you are able to rule out certain cases.
+
+
+2. For location
+
+
+First, you have to query the oracle twice regarding the first two suspects, 1 and 2. After that, you know that the murderer 
+case must be either one of the two intersection points of the two circles whose centers are suspect 1 and suspect 2.
+
+
+Then, you can check the rest of the suspects, their distances between suspect 1 and suspect 2, respectively. You can rule out 
+the ones that don't match the distances that are returned by the oracle about the queries for suspect 1 and suspect 2. 
+
+
+OR, you may try to compute the two intersection points, for solve the two equations that represent the two circles.
+
+
+(1) If you know how to get the intersec points' coordinates for any two circles, that's good. So, it will be a pure equation solving 
+problems. You will need to get two sets of (x, y). One of them is the real murder, and you will need to check again for the rest of suspect cases.
+
+
+(2) Or, you can refer to the following links about how to solve such problem by following a formatted formula of x and y. However, 
+you'll need to move the circles and move them back to get the final (x, y). That may require some math backgrounds. (this is totally optional!!)
+
+
+http://mathworld.wolfram.com/Circle-CircleIntersection.html
+http://en.wikipedia.org/wiki/Rotation_(mathematics)
+
+
+Assume the three points are A (2, 3), B (4, 4), and C (1, 2), where A and B are two suspects, and C is the murder location.  The goal is to find the coordinate of C.
+
+a.  Shift the points to A', B', and C' so that A' = (0, 0)
+
+b.  Rotate the triangle to A', B", and C" so that edge AB is on the x-axis, i.e., B" = (d, 0), where d is the length of edge AB 
+(the distance between the two suspect locations)  The angle of the rotation can be found by Math.acos(Math.abs(B.getX() - A.getX())/d). 
+ Please be careful with actual angle.  See line 162 - 167 in Detective.java.
+
+c.  C" will be one of the two intersections of the circle centered at A' with radius d1 (the distance between A and C) and the circle centered at B" 
+with radius d2 (the distance between B and C).  So the coordinate of C" can be calculated as follows:
+
+    x = (d * d - d2 * d2 + d1 * d1) / (2 * d);
+    y = sqrt(d1 * d1 - x * x)
+
+
+d.  Now we need to rotate the triangle back using the transformation formula
+
+        angle = -1 * angle;
+        x = x * Math.cos(angle) + y * Math.sin(angle);
+        y= -1 * x * Math.sin(angle) + y * Math.cos(angle);
+
+e.  At last, you need to shift the points back the original position of A, B, and C.
+
+f.  Now you need to check with the the Oracle if this is the right location.  If not, it must be the other solution of the sqrt() operation.  
+Go back to step 3 and change y to -y and repeat steps 4 and 5.  This will definitely be the point.
+
+
+3. For time
+
+
+There are more than one solutions for time, because the difference d we give is the range. So, what you may do is to update the range over and over again, 
+until you rule out more and more cases, and only leave the real murder case in the range.
+
+
+When designing the algoritm, you need to think about how to update the lower and upper bound of the range. 
+After getting a small range, you could start to check the rest of the suspects (make queries) whether they are murderer.
+
+
+Ok, that's the summary! Good luck with your assignment and hope you work with fun.
+
+
+Cheers,
+Yongxin
+
+
+
+
+On Fri, Mar 15, 2013 at 11:45 PM, Yongxin Liu <yongliu@ucalgary.ca> wrote:
+
+Hi everyone,
+
+
+Because assignment 4 is a little complicated, so on next week's tutorials "Help on Assignment 4" there will be some teaching. 
+We will together go through some steps of doing this assignment, you will spend some time thinking about your design, and some example codes will be provided too.
+
+
+Best,
+Yongxin 
+
+
+On Fri, Mar 15, 2013 at 3:18 PM, Yongxin Liu <yongliu@ucalgary.ca> wrote:
+
+Hi everyone,
+
+
+Please find the tutorial 11 note attached in this email.
+
+
+Next week's two tutorials are both "Help on Assignment 4", so there will be no teaching or exercises. Assignment 4 is released on Blackboard 
+with a 4-day deadline extension. It is due at 4pm on Mar 26 (Tuesday) via the submit program.
+
+
+Have a nice weekend!
+
+
+Cheers,
+Yongxin
+
+
+

@@ -1,0 +1,94 @@
+/** 
+ * Event.java: Encapsulating information of each event, also a node in the 
+ *             linked list implmenetation of the event list. <br>
+ * Copyright (c) 2013 Mea Wang. All rights reserved.
+ *
+ * @author Mea Wang
+ * @version CPSC 233, Assignment 3 (may be modified by students)
+ */
+
+/********************************************************************************
+ * Last Modified: 03/07/2013 03:22 MST                                          *
+ *                                                                              *
+ * Last Name:           Hung                                                    *
+ * First Name:          Michael                                                 *
+ * Student ID:          10099049                                                *
+ * Course:              CPSC 233                                                *
+ * Tutorial Section:    03                                                      *
+ * Assignment:          3                                                       *
+ *                                                                              *
+ * The core implementation of the "Linked Lists" was adapted                    *
+ * from Dr. Wang's lecture slides on BlackBoard.                                *
+ *                                                                              *
+ * This class is used in the class EventList.                                   *
+ *                                                                              *
+ * This class is an integral part of a simple OS simulation                     *
+ * which uses linked lists to keep track of a number of Events.                 *
+ * Each Event is assigned an integer - the number of times                      *
+ * that it will be run in the duration of the program. Each                     *
+ * time that it is run, the integer is decremented. When                        * 
+ * the duration reaches 0, the Event is removed from the                        *
+ * linked list. This continues until all Events have reached                    *
+ * 0.                                                                           *
+ *                                                                              *
+ * This class contains methods that are used specifically                       *
+ * in the linked list implementation, a method that decrements                  *
+ * the value of an Event's duration, and a method that returns                  *
+ * the remaining duration as a String for display purposes.                     *
+ *                                                                              *
+ ********************************************************************************/
+ 
+ 
+public class Event
+{
+    private int remainTime;
+    private Event nextEvent;
+
+    /** Constructor: create an event
+     * @param d The duration of the event
+     */
+    public Event (int duration)
+
+    {
+        remainTime = duration;
+        nextEvent = null;
+    }
+    
+    /** Set the next event in the linked list
+     * @param e The next event
+     */
+    public void setNext (Event e)
+
+    {
+        nextEvent = e;
+    }
+    
+    /** Get the next event in the linked list
+     * @return The event pointed by "nextEvent"
+     */
+    public Event getNext ()
+
+    {
+        return nextEvent;
+    }
+    
+    /** Pretend the execution of the event by decrementing the remaining time by one
+     * @return The remaining time of the event
+     */
+    public int run ()
+
+    {
+        remainTime --;
+
+        return remainTime;
+    }
+    
+    /** Present the event in a string
+     * @return The string representation of the event
+     */
+    public String toString ()
+
+    {
+        return Integer.toString (remainTime);
+    }
+}

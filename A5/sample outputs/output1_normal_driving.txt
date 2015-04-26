@@ -1,0 +1,235 @@
+ 1 2 3 4 5 6 7 8 9 A B C D E F G H I J K L M N O P
+ - - - - - - - - - - - - - - - - - - - - - - - - -
+|V| | | | | | | | | | | | | | | | | | | | | | | | |
+ - - - - - - - - - - - - - - - - - - - - - - - - -
+
+DESERT TRACK
+ 1 2 3 4 5 6 7 8 9 A B C D E F G H I J K L M N O P
+ - - - - - - - - - - - - - - - - - - - - - - - - -
+|P| | | | | | | | | | | | | | | | | | | | | | | | |
+ - - - - - - - - - - - - - - - - - - - - - - - - -
+
+SUV driving options
+(a)ll wheel drive mode
+(d)rive normally
+(q)uit simulation
+Enter selection: d
+Current fuel: 47
+Fuel use: 3
+Distance SUV moved: 2
+
+Sportscar driving options
+(d)rive normally
+(q)uit simulation
+Enter selection: d
+Current fuel: 28
+Fuel use: 2
+Distance Sports car moved: 3
+ARTIC TRACK
+ 1 2 3 4 5 6 7 8 9 A B C D E F G H I J K L M N O P
+ - - - - - - - - - - - - - - - - - - - - - - - - -
+| | |V| | | | | | | | | | | | | | | | | | | | | | |
+ - - - - - - - - - - - - - - - - - - - - - - - - -
+
+DESERT TRACK
+ 1 2 3 4 5 6 7 8 9 A B C D E F G H I J K L M N O P
+ - - - - - - - - - - - - - - - - - - - - - - - - -
+| | | |P| | | | | | | | | | | | | | | | | | | | | |
+ - - - - - - - - - - - - - - - - - - - - - - - - -
+
+SUV driving options
+(a)ll wheel drive mode
+(d)rive normally
+(q)uit simulation
+Enter selection: d
+Current fuel: 44
+Fuel use: 3
+Distance SUV moved: 2
+
+Sportscar driving options
+(d)rive normally
+(q)uit simulation
+Enter selection: d
+Current fuel: 26
+Fuel use: 2
+Distance Sports car moved: 3
+ARTIC TRACK
+ 1 2 3 4 5 6 7 8 9 A B C D E F G H I J K L M N O P
+ - - - - - - - - - - - - - - - - - - - - - - - - -
+| | | | |V| | | | | | | | | | | | | | | | | | | | |
+ - - - - - - - - - - - - - - - - - - - - - - - - -
+
+DESERT TRACK
+ 1 2 3 4 5 6 7 8 9 A B C D E F G H I J K L M N O P
+ - - - - - - - - - - - - - - - - - - - - - - - - -
+| | | | | | |P| | | | | | | | | | | | | | | | | | |
+ - - - - - - - - - - - - - - - - - - - - - - - - -
+
+SUV driving options
+(a)ll wheel drive mode
+(d)rive normally
+(q)uit simulation
+Enter selection: d
+Current fuel: 41
+Fuel use: 3
+Distance SUV moved: 2
+
+Sportscar driving options
+(d)rive normally
+(q)uit simulation
+Enter selection: d
+Current fuel: 24
+Fuel use: 2
+Distance Sports car moved: 3
+ARTIC TRACK
+ 1 2 3 4 5 6 7 8 9 A B C D E F G H I J K L M N O P
+ - - - - - - - - - - - - - - - - - - - - - - - - -
+| | | | | | |V| | | | | | | | | | | | | | | | | | |
+ - - - - - - - - - - - - - - - - - - - - - - - - -
+
+DESERT TRACK
+ 1 2 3 4 5 6 7 8 9 A B C D E F G H I J K L M N O P
+ - - - - - - - - - - - - - - - - - - - - - - - - -
+| | | | | | | | | |P| | | | | | | | | | | | | | | |
+ - - - - - - - - - - - - - - - - - - - - - - - - -
+
+SUV driving options
+(a)ll wheel drive mode
+(d)rive normally
+(q)uit simulation
+Enter selection: d
+Current fuel: 38
+Fuel use: 3
+Distance SUV moved: 2
+
+Sportscar driving options
+(d)rive normally
+(q)uit simulation
+Enter selection: d
+Current fuel: 22
+Fuel use: 2
+Distance Sports car moved: 3
+ARTIC TRACK
+ 1 2 3 4 5 6 7 8 9 A B C D E F G H I J K L M N O P
+ - - - - - - - - - - - - - - - - - - - - - - - - -
+| | | | | | | | |V| | | | | | | | | | | | | | | | |
+ - - - - - - - - - - - - - - - - - - - - - - - - -
+
+DESERT TRACK
+ 1 2 3 4 5 6 7 8 9 A B C D E F G H I J K L M N O P
+ - - - - - - - - - - - - - - - - - - - - - - - - -
+| | | | | | | | | | | | |P| | | | | | | | | | | | |
+ - - - - - - - - - - - - - - - - - - - - - - - - -
+
+SUV driving options
+(a)ll wheel drive mode
+(d)rive normally
+(q)uit simulation
+Enter selection: d
+Current fuel: 35
+Fuel use: 3
+Distance SUV moved: 2
+
+Sportscar driving options
+(d)rive normally
+(q)uit simulation
+Enter selection: d
+Current fuel: 20
+Fuel use: 2
+Distance Sports car moved: 3
+ARTIC TRACK
+ 1 2 3 4 5 6 7 8 9 A B C D E F G H I J K L M N O P
+ - - - - - - - - - - - - - - - - - - - - - - - - -
+| | | | | | | | | | |V| | | | | | | | | | | | | | |
+ - - - - - - - - - - - - - - - - - - - - - - - - -
+
+DESERT TRACK
+ 1 2 3 4 5 6 7 8 9 A B C D E F G H I J K L M N O P
+ - - - - - - - - - - - - - - - - - - - - - - - - -
+| | | | | | | | | | | | | | | |P| | | | | | | | | |
+ - - - - - - - - - - - - - - - - - - - - - - - - -
+
+SUV driving options
+(a)ll wheel drive mode
+(d)rive normally
+(q)uit simulation
+Enter selection: d
+Current fuel: 32
+Fuel use: 3
+Distance SUV moved: 2
+
+Sportscar driving options
+(d)rive normally
+(q)uit simulation
+Enter selection: d
+Current fuel: 18
+Fuel use: 2
+Distance Sports car moved: 3
+ARTIC TRACK
+ 1 2 3 4 5 6 7 8 9 A B C D E F G H I J K L M N O P
+ - - - - - - - - - - - - - - - - - - - - - - - - -
+| | | | | | | | | | | | |V| | | | | | | | | | | | |
+ - - - - - - - - - - - - - - - - - - - - - - - - -
+
+DESERT TRACK
+ 1 2 3 4 5 6 7 8 9 A B C D E F G H I J K L M N O P
+ - - - - - - - - - - - - - - - - - - - - - - - - -
+| | | | | | | | | | | | | | | | | | |P| | | | | | |
+ - - - - - - - - - - - - - - - - - - - - - - - - -
+
+SUV driving options
+(a)ll wheel drive mode
+(d)rive normally
+(q)uit simulation
+Enter selection: d
+Current fuel: 29
+Fuel use: 3
+Distance SUV moved: 2
+
+Sportscar driving options
+(d)rive normally
+(q)uit simulation
+Enter selection: d
+Current fuel: 16
+Fuel use: 2
+Distance Sports car moved: 3
+ARTIC TRACK
+ 1 2 3 4 5 6 7 8 9 A B C D E F G H I J K L M N O P
+ - - - - - - - - - - - - - - - - - - - - - - - - -
+| | | | | | | | | | | | | | |V| | | | | | | | | | |
+ - - - - - - - - - - - - - - - - - - - - - - - - -
+
+DESERT TRACK
+ 1 2 3 4 5 6 7 8 9 A B C D E F G H I J K L M N O P
+ - - - - - - - - - - - - - - - - - - - - - - - - -
+| | | | | | | | | | | | | | | | | | | | | |P| | | |
+ - - - - - - - - - - - - - - - - - - - - - - - - -
+
+SUV driving options
+(a)ll wheel drive mode
+(d)rive normally
+(q)uit simulation
+Enter selection: d
+Current fuel: 26
+Fuel use: 3
+Distance SUV moved: 2
+
+Sportscar driving options
+(d)rive normally
+(q)uit simulation
+Enter selection: d
+Current fuel: 14
+Fuel use: 2
+Distance Sports car moved: 3
+Sports car has reached the end first
+ARTIC TRACK
+ 1 2 3 4 5 6 7 8 9 A B C D E F G H I J K L M N O P
+ - - - - - - - - - - - - - - - - - - - - - - - - -
+| | | | | | | | | | | | | | | | |V| | | | | | | | |
+ - - - - - - - - - - - - - - - - - - - - - - - - -
+
+DESERT TRACK
+ 1 2 3 4 5 6 7 8 9 A B C D E F G H I J K L M N O P
+ - - - - - - - - - - - - - - - - - - - - - - - - -
+| | | | | | | | | | | | | | | | | | | | | | | | |P|
+ - - - - - - - - - - - - - - - - - - - - - - - - -

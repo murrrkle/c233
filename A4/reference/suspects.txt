@@ -1,0 +1,7 @@
+M, 30, 1.25; Main, Vancouver, BC; 19:30
+F, 20, 1.65; Front, Toronto, ON; 8:00
+M, 40, 1.75; Fort, Winnipeg, MB; 12:15
+M, 20, 1.75; Downtown, Edmonton, AB; 13:00
+F, 80, 1.9; Anderson, Calgary, AB; 7:00
+F, 10, 0.8; Park, Calgary, AB; 3:00
+M, 55, 1.83; Mall, Victoria, BC; 4:00 

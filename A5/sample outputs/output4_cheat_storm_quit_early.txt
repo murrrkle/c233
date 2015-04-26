@@ -1,0 +1,118 @@
+ 1 2 3 4 5 6 7 8 9 A B C D E F G H I J K L M N O P
+ - - - - - - - - - - - - - - - - - - - - - - - - -
+|V| | | | | | | | | | | | | | | | | | | | | | | | |
+ - - - - - - - - - - - - - - - - - - - - - - - - -
+
+DESERT TRACK
+ 1 2 3 4 5 6 7 8 9 A B C D E F G H I J K L M N O P
+ - - - - - - - - - - - - - - - - - - - - - - - - -
+|P| | | | | | | | | | | | | | | | | | | | | | | | |
+ - - - - - - - - - - - - - - - - - - - - - - - - -
+
+SUV driving options
+(a)ll wheel drive mode
+(d)rive normally
+(q)uit simulation
+Enter selection: c
+
+CHEAT MENU SELECTION
+(0) Toggle debugging messages on/off
+(1) Change fuel of sports car
+(2) Change fuel of SUV car
+(3) Change location of sports car
+(4) Change location of suv car
+(5) Make a blizzard in the artic track
+(6) Make a heat wave in the desert track
+Enter selection: 6
+Causing a heat wave in the desert track
+Desert track hit with a heat wave
+
+Sportscar driving options
+(d)rive normally
+(q)uit simulation
+Enter selection: c
+
+CHEAT MENU SELECTION
+(0) Toggle debugging messages on/off
+(1) Change fuel of sports car
+(2) Change fuel of SUV car
+(3) Change location of sports car
+(4) Change location of suv car
+(5) Make a blizzard in the artic track
+(6) Make a heat wave in the desert track
+Enter selection: 5
+Causing a blizzard in the artic track
+ARTIC TRACK
+ 1 2 3 4 5 6 7 8 9 A B C D E F G H I J K L M N O P
+ - - - - - - - - - - - - - - - - - - - - - - - - -
+|V| | | | | | | | | | | | | | | | | | | | | | | | |
+ - - - - - - - - - - - - - - - - - - - - - - - - -
+Track is current hit with a blizzard
+
+DESERT TRACK
+ 1 2 3 4 5 6 7 8 9 A B C D E F G H I J K L M N O P
+ - - - - - - - - - - - - - - - - - - - - - - - - -
+|P| | | | | | | | | | | | | | | | | | | | | | | | |
+ - - - - - - - - - - - - - - - - - - - - - - - - -
+
+SUV driving options
+(a)ll wheel drive mode
+(d)rive normally
+(q)uit simulation
+Enter selection: c
+
+CHEAT MENU SELECTION
+(0) Toggle debugging messages on/off
+(1) Change fuel of sports car
+(2) Change fuel of SUV car
+(3) Change location of sports car
+(4) Change location of suv car
+(5) Make a blizzard in the artic track
+(6) Make a heat wave in the desert track
+Enter selection: 5
+Causing a blizzard in the artic track
+
+Sportscar driving options
+(d)rive normally
+(q)uit simulation
+Enter selection: c
+
+CHEAT MENU SELECTION
+(0) Toggle debugging messages on/off
+(1) Change fuel of sports car
+(2) Change fuel of SUV car
+(3) Change location of sports car
+(4) Change location of suv car
+(5) Make a blizzard in the artic track
+(6) Make a heat wave in the desert track
+Enter selection: 6
+Causing a heat wave in the desert track
+ARTIC TRACK
+ 1 2 3 4 5 6 7 8 9 A B C D E F G H I J K L M N O P
+ - - - - - - - - - - - - - - - - - - - - - - - - -
+|V| | | | | | | | | | | | | | | | | | | | | | | | |
+ - - - - - - - - - - - - - - - - - - - - - - - - -
+
+DESERT TRACK
+ 1 2 3 4 5 6 7 8 9 A B C D E F G H I J K L M N O P
+ - - - - - - - - - - - - - - - - - - - - - - - - -
+|P| | | | | | | | | | | | | | | | | | | | | | | | |
+ - - - - - - - - - - - - - - - - - - - - - - - - -
+
+SUV driving options
+(a)ll wheel drive mode
+(d)rive normally
+(q)uit simulation
+Enter selection: q
+Quiting game before end: simulation is a draw.
+ARTIC TRACK
+ 1 2 3 4 5 6 7 8 9 A B C D E F G H I J K L M N O P
+ - - - - - - - - - - - - - - - - - - - - - - - - -
+|V| | | | | | | | | | | | | | | | | | | | | | | | |
+ - - - - - - - - - - - - - - - - - - - - - - - - -
+
+DESERT TRACK
+ 1 2 3 4 5 6 7 8 9 A B C D E F G H I J K L M N O P
+ - - - - - - - - - - - - - - - - - - - - - - - - -
+|P| | | | | | | | | | | | | | | | | | | | | | | | |
+ - - - - - - - - - - - - - - - - - - - - - - - - -

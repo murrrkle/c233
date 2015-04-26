@@ -1,0 +1,56 @@
+import java.util.Random;
+
+/*********************************************************
+ * Last Name:           Hung
+ * First Name:          Michael
+ * Student ID:          10099049
+ * Course:              CPSC 233
+ * Tutorial Section:    L03 w/ Yongxin Liu
+ * Assignment:          5
+ *
+ * A child of Track used exclusively with the Sports car. 
+ * A random number generator determines whether
+ * a heat wave will occur.
+**********************************************************/
+
+public class DesertTrack extends Track
+
+{
+    private Sports [] aDesertTrack;
+    private Random rng;
+    
+    public DesertTrack () // Default Constructor
+    
+    {
+        	aDesertTrack = new Sports [SIZE];
+        	rng = new Random ();
+        	
+        	int c;
+        	for (c = 0; c < SIZE; c++)
+        	
+	    {
+	        aDesertTrack [c] = null;
+        }
+    }
+    
+    
+    public boolean makeHeatWave (boolean cheat) // Uses RNG to determine if a blizzard occurs. If cheatBlizzard == true, the chance of this happening is 100%.
+    
+    {
+        boolean heatWave = false;
+        
+        if (cheat)
+        
+        {
+            heatWave = true;
+        }
+        
+        else if (rng.nextInt (101) % 10 == 0)
+        
+        {
+            heatWave = true;
+        }
+        
+        return heatWave;
+    }
+}    
